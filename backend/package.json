@@ -1,0 +1,30 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "Frontend for XYZ application",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+      "dev": "npm run development",
+      "development": "mix",
+      "watch": "mix watch",
+      "watch-poll": "mix watch -- --watch-options-poll=1000",
+      "hot": "mix watch --hot",
+      "prod": "npm run production",
+      "production": "mix --production",
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build"
+    },
+    "dependencies": {
+      "vue": "^3.0.0"
+    },
+    "devDependencies": {
+      "axios": "^0.21",
+      "laravel-mix": "^6.0.6",
+      "lodash": "^4.17.19",
+      "postcss": "^8.1.14",
+      "@vue/cli-service": "^4.5.0",
+      "@vue/cli-plugin-babel": "^4.5.0"
+    }
+  }
+  
